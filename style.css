@@ -40,7 +40,7 @@ h1 {
   .data-container{
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: auto;
     margin: 50px auto;
     padding: 5px;
     background-color: #FFF;
