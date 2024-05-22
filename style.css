@@ -3,6 +3,7 @@ body {
   background-color: white;
 }
 
+
 #head {
   margin: auto;
   width: auto;
@@ -90,6 +91,11 @@ body {
 /* this for the web site  */
 
 @media (pointer: fine){
+  #top {
+
+    height: 150px;
+  }
+  
   #head {
     margin: auto;
     width: 25%;
