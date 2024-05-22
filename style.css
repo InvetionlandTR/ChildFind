@@ -1,0 +1,127 @@
+
+body {
+  background-color: white;
+}
+
+#head {
+  margin: auto;
+  width: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: #FFF;
+  box-shadow: 0 5px 20px red;
+  border-radius: 20px;
+  border-color: red;
+}
+
+.table {
+  width: 75%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+
+h1 {
+
+  color: red;
+  text-align: center;
+  
+
+
+}
+
+
+  .data-container{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: #FFF;
+    box-shadow: 0 2px 20px black;
+    border-radius: 20px;
+  }
+
+  .data-item{
+    width: 50%;
+    text-align: center;
+  }
+
+  .data-item h2{
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .data-item p{
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #6EB7FF; */
+    color: red;
+  }
+  @media (pointer: fine){
+
+    .data-container{
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      margin: 50px auto;
+      padding: 5px;
+      background-color: #FFF;
+      box-shadow: 0 2px 20px red;
+      border-radius: 20px;
+    }
+
+    .data-item{
+      width: 75%;
+      text-align: center;
+    }
+      
+    .data-item h2{
+      width: auto;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+
+    .data-item p{
+      width: auto;
+      font-size: 20px;
+      font-weight: bold;
+      /* color: #6EB7FF; */
+      color:blue;
+    }
+  }
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+  width: auto;
+  height: 75%;
+  margin: auto;
+  box-shadow: 0 5px 20px red;
+  
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
