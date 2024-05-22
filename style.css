@@ -40,7 +40,7 @@ h1 {
   .data-container{
     display: flex;
     justify-content: space-between;
-    width: auto;
+    width: 100%;
     margin: 50px auto;
     padding: 5px;
     background-color: #FFF;
@@ -74,7 +74,7 @@ h1 {
     .data-container{
       display: flex;
       justify-content: space-between;
-      width: 50%;
+      width: 25%;
       margin: 50px auto;
       padding: 5px;
       background-color: #FFF;
@@ -83,7 +83,7 @@ h1 {
     }
 
     .data-item{
-      width: 75%;
+      width: 50%;
       text-align: center;
     }
       
