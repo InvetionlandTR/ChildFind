@@ -44,7 +44,7 @@ h1 {
     margin: 50px auto;
     padding: 5px;
     background-color: #FFF;
-    box-shadow: 0 2px 20px black;
+    box-shadow: 0 2px 20px red;
     border-radius: 20px;
   }
 
@@ -78,7 +78,7 @@ h1 {
       margin: 50px auto;
       padding: 5px;
       background-color: #FFF;
-      box-shadow: 0 2px 20px red;
+      box-shadow: 0 2px 20px blue;
       border-radius: 20px;
     }
 
